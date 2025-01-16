@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",   // Compiled files ke liye directory
+    "rootDir": "./src",   // Source TypeScript files ka base directory
+    "strict": true,       // Optional: Strict type checking
+    "target": "ES6",      // Optional: Target JavaScript version
+    "module": "commonjs"  // Optional: Module system
+  },
+  "include": ["src/**/*.ts"], // Optional: Include specific files/folders
+  "exclude": ["node_modules", "dist"] // Optional: Exclude unwanted files
+}
